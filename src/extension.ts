@@ -2,7 +2,7 @@ import * as vscode from 'vscode';
 
 export function activate(context: vscode.ExtensionContext) {
 	console.log('Congratulations, your extension "vscode-coregames-api-test" is now active!');
-	setExternalLibrary("EmmyLua", true)
+	setExternalLibrary("D:\\Dev\\Repo\\vscode\\vscode-coregames-api-test\\EmmyLua", true)
 }
 
 export function setExternalLibrary(folder: string, enable: boolean) {
